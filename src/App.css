@@ -152,7 +152,7 @@ input:checked+.slider:before {
 
 
   .all {
-    width: 60%;
+    width: 80%;
   }
 
   .background1 {
@@ -166,6 +166,7 @@ input:checked+.slider:before {
   }
 
   .switchdiv label {
-    margin-right: 70px;
+    margin-right: 50px;
   }
+
 }

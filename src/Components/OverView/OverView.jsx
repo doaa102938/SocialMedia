@@ -1,4 +1,6 @@
 import './OverView.css'
+import up from '../../assets/images/icon-up.svg'
+
 function Overview(props) {
     return (
         <div id='OverViewCard' className={props.class}>
@@ -9,7 +11,7 @@ function Overview(props) {
             <div className="divdown">
                 <label className='value'>{props.value}</label>
                 <div className="Thirddiv">
-                    {props.updown == "src/assets/images/icon-up.svg" ?
+                    {props.updown == up ?
                         (<> <img src={props.updown}></img>
                             <label >{props.change}</label></>) :
                         (<><img src={props.updown}></img><label id='textred'>{props.change}</label></>)}

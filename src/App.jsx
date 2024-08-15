@@ -1,5 +1,11 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import facebook from '../src/assets/images/icon-facebook.svg'
+import instagram from '../src/assets/images/icon-instagram.svg'
+import twitter from '../src/assets/images/icon-twitter.svg'
+import youtube from '../src/assets/images/icon-youtube.svg'
+import up from '../src/assets/images/icon-up.svg'
+import down from '../src/assets/images/icon-down.svg'
 import Followers from './Components/Followers/Followers'
 import Overview from './Components/OverView/OverView'
 function App() {
@@ -13,116 +19,116 @@ function App() {
 
   const [ArrayOfObject, setArrayOfObject] = useState([
     {
-      platform: "src/assets/images/icon-facebook.svg",
+      platform: facebook,
       username: "@nathanf",
       metric: "Followers",
       value: 1987,
       change: "12 Today",
-      updown: "src/assets/images/icon-up.svg",
+      updown: up,
       id: 1,
       class: "c1"
     },
     {
-      platform: "src/assets/images/icon-twitter.svg",
+      platform: twitter,
       username: "@nathanf",
       metric: "Followers",
       value: 1044,
       change: "99 Today",
-      updown: "src/assets/images/icon-up.svg",
+      updown: up,
       id: 2,
       class: "c2"
     },
     {
-      platform: "src/assets/images/icon-instagram.svg",
+      platform: instagram,
       username: "@realnathanf",
       metric: "Followers",
       value: 11000,
       change: "1099 Today",
-      updown: "src/assets/images/icon-up.svg",
+      updown: up,
       id: 3,
       class: "c3"
     },
     {
-      platform: "src/assets/images/icon-youtube.svg",
+      platform: youtube,
       username: "Nathan F.",
       metric: "Subscribers",
       value: 8239,
       change: "144 Today",
-      updown: "src/assets/images/icon-down.svg",
+      updown: down,
       id: 4,
       class: "c4"
     }
   ])
   const [ArrayOfObject2, setArrayOfObject2] = useState([
     {
-      platform: "src/assets/images/icon-facebook.svg",
+      platform: facebook,
       metric: "Page Views",
       value: 87,
       change: "3%",
-      updown: "src/assets/images/icon-up.svg",
+      updown: up,
       id: 1,
       class: "card1"
     },
     {
-      platform: "src/assets/images/icon-facebook.svg",
+      platform: facebook,
       metric: "Likes",
       value: 52,
       change: "2%",
-      updown: "src/assets/images/icon-down.svg",
+      updown: down,
       id: 2,
       class: "card2"
     },
     {
-      platform: "src/assets/images/icon-instagram.svg",
+      platform: instagram,
       metric: "Likes",
       value: 5462,
       change: "2257%",
-      updown: "src/assets/images/icon-up.svg",
+      updown: down,
       id: 3,
       class: "card3"
     },
     {
-      "platform": "src/assets/images/icon-instagram.svg",
-      "metric": "Profile Views",
-      "value": 52000,
-      "change": "1375%",
-      "updown": "src/assets/images/icon-up.svg",
+      platform: instagram,
+      metric: "Profile Views",
+      value: 52000,
+      change: "1375%",
+      "updown": up,
       "id": 4,
       "class": "card4"
     },
     {
-      "platform": "src/assets/images/icon-twitter.svg",
+      "platform": twitter,
       "metric": "Retweets",
       "value": 117,
       "change": "303%",
-      "updown": "src/assets/images/icon-up.svg",
+      "updown": up,
       "id": 5,
       "class": "card5"
     },
     {
-      "platform": "src/assets/images/icon-twitter.svg",
+      "platform": twitter,
       "metric": "Likes",
       "value": 507,
       "change": "553%",
-      "updown": "src/assets/images/icon-up.svg",
+      "updown": up,
       "id": 6,
       "class": "card6"
     },
     {
-      "platform": "src/assets/images/icon-youtube.svg",
+      "platform": youtube,
       "metric": "Likes",
       "value": 107,
       "change": "19%",
-      "updown": "src/assets/images/icon-down.svg",
+      "updown": up,
       "id": 7,
       "class": "card7"
     },
     {
-      "platform": "src/assets/images/icon-youtube.svg",
+      "platform": youtube,
       "metric": "Total Views",
       "value": 1407,
       "change": "12%",
-      "updown": "src/assets/images/icon-down.svg",
+      "updown": down,
       "id": 8,
       "class": "card8"
     }

@@ -150,14 +150,22 @@ input:checked+.slider:before {
     margin: 20px auto;
   }
 
-  .background2 {
-    height: 80%;
-  }
 
   .all {
     width: 60%;
   }
 
+  .background1 {
 
+    height: 40%;
+  }
 
+  .title1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .switchdiv label {
+    margin-right: 70px;
+  }
 }

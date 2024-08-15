@@ -1,4 +1,6 @@
 import './Followers.css'
+import up from '../../assets/images/icon-up.svg'
+
 
 
 function Followers(props) {
@@ -14,7 +16,7 @@ function Followers(props) {
             </div>
             <div className="Thirddiv">
 
-                {props.updown == "src/assets/images/icon-up.svg" ?
+                {props.updown == up ?
                     (<> <img src={props.updown}></img>
                         <label >{props.change}</label></>) :
                     (<><img src={props.updown}></img><label id='textred'>{props.change}</label></>)}
